@@ -1,4 +1,4 @@
-# UMT
+# Unmasked Teacher
 
 This repo is the official implementation of ["Unmasked Teacher: Towards Training-Efficient Video Foundation Models"]().
 By [Kunchang Li](https://scholar.google.com/citations?user=D4tLSbsAAAAJ), [Yali Wang](https://scholar.google.com/citations?user=hD948dkAAAAJ), [Yizhuo Li](https://scholar.google.com/citations?user=pyBSGjgAAAAJ), [Yi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Xm2M8UwAAAAJ), [Yinan He](https://dblp.org/pid/93/7763.html), [Limin Wang](https://scholar.google.com/citations?user=HEuN8PcAAAAJ) and [Yu Qiao](https://scholar.google.com/citations?user=gFtI-8QAAAAJ&hl).
@@ -15,10 +15,17 @@ Video Foundation Models (VFMs) have received limited exploration due to high com
 
 
 
-##  Cite UMT
+##  Cite
 
 If you find this repository useful, please use the following BibTeX entry for citation.
 
 ```latex
-
+@misc{li2023unmasked,
+      title={Unmasked Teacher: Towards Training-Efficient Video Foundation Models}, 
+      author={Kunchang Li and Yali Wang and Yizhuo Li and Yi Wang and Yinan He and Limin Wang and Yu Qiao},
+      year={2023},
+      eprint={2303.16058},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
