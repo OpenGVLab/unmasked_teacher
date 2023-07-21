@@ -131,7 +131,7 @@ class UMT(nn.Module):
         mask_ratio = self.image_mask_ratio if T == 1 else self.video_mask_ratio
         
         if self.clip_teacher is None or self.loss_weight.uta == 0:
-            return None, None, None
+            return None, None
 
         if H != self.clip_img_size:
             image = torch.nn.functional.interpolate(
