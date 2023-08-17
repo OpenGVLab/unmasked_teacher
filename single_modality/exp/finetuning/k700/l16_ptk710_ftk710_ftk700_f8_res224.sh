@@ -20,7 +20,7 @@ srun -p $PARTITION \
         --ntasks-per-node=${GPUS_PER_NODE} \
         --cpus-per-task=${CPUS_PER_TASK} \
         python run_class_finetuning.py \
-        --model vit_base_patch16_224 \
+        --model vit_large_patch16_224 \
         --data_path ${DATA_PATH} \
         --prefix ${PREFIX} \
         --data_set 'Kinetics_sparse' \
