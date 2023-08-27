@@ -41,7 +41,10 @@ def train_one_epoch(
 
         videos, bool_masked_pos = batch
         videos = videos.to(device, non_blocking=True)
-        bool_masked_pos = None
+        if mask_type in ['attention']:
+            bool_masked_pos = None
+        else:
+            bool_masked_pos = bool_masked_pos.to(device, non_blocking=True).flatten(1).to(torch.bool)
 
         with torch.no_grad():
             # calculate the predicted CLIP features
@@ -55,8 +58,12 @@ def train_one_epoch(
                 clip_videos = clip_videos.view(B, C, T, clip_input_resolution, clip_input_resolution)
             else:
                 clip_videos = videos
-                
-            norm_clip, attn = teacher_model(clip_videos)
+            
+            if bool_masked_pos is None:
+                norm_clip, attn = teacher_model(clip_videos)
+            else:
+                norm_clip = teacher_model(clip_videos)
+
             BT, N = attn.shape
             N_vis = N - int(N * mask_ratio)
             if mask_type == 'attention':
