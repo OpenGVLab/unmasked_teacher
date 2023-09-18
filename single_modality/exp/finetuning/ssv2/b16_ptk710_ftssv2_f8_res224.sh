@@ -1,7 +1,7 @@
 export MASTER_PORT=$((12000 + $RANDOM % 20000))
 export OMP_NUM_THREADS=1
 
-JOB_NAME='b16_ptk710_ftk710_ftssv2_f8_res224'
+JOB_NAME='b16_ptk710_ftssv2_f8_res224'
 OUTPUT_DIR="$(dirname $0)/$JOB_NAME"
 LOG_DIR="./logs/${JOB_NAME}"
 PREFIX='your_data_path'
