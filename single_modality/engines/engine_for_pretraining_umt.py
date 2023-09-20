@@ -59,10 +59,11 @@ def train_one_epoch(
             else:
                 clip_videos = videos
             
-            if bool_masked_pos is None:
-                norm_clip, attn = teacher_model(clip_videos)
-            else:
-                norm_clip = teacher_model(clip_videos)
+            with torch.cuda.amp.autocast():
+                if bool_masked_pos is None:
+                    norm_clip, attn = teacher_model(clip_videos)
+                else:
+                    norm_clip = teacher_model(clip_videos)
 
             BT, N = attn.shape
             N_vis = N - int(N * mask_ratio)

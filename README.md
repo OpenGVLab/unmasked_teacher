@@ -6,6 +6,7 @@ By [Kunchang Li](https://scholar.google.com/citations?user=D4tLSbsAAAAJ), [Yali 
 
 ## Update
 
+- :warning: **2023/09/20**: **Fix bug in UMT pretraining.** Add autocast for teacher forward, which can halve the pretraining time.
 - :fire: **2023/07/19**: **All the code and models are released.**
   - [single_modality](./single_modality/): Single-modality pretraining and finetuning.
     - Action Classification: [Kinetics](https://www.deepmind.com/open-source/kinetics), [Moments in Time](http://moments.csail.mit.edu/), [Something-Something](https://developer.qualcomm.com/software/ai-datasets/something-something).
