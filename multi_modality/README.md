@@ -14,6 +14,14 @@ You can find the dataset instructions in [DATASET](DATASET.md). We have provide 
 
 You can find all the models and the scripts in [MODEL_ZOO](./MODEL_ZOO.md).
 
+## Warning 
+
+Thanks for some recent issues, and I finally find **the bug for MSVD testing**. I have been confused for the 'extremely high result' for a long time. 😄
+
+Different from ANet and DiDeMo, which use paragraph for retrieval, MSVD has multiple text for one videos. Thus the `is_paragraph_retrieval` should be set to `False` for retrieval.
+
+After fixing the bug, the zero-shot results for `ViT-L/16_25M` is `49.0`, not `72.2`. The results are quite normal, but still the best zero-shot results. I will conduct the corresponding experiments and update the results in the paper latter.
+
 ## Pre-Training
 
 We use [CLIP](https://github.com/openai/CLIP) pretrained models as the unmasked teachers by default:

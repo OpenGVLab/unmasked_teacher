@@ -6,11 +6,12 @@ By [Kunchang Li](https://scholar.google.com/citations?user=D4tLSbsAAAAJ), [Yali 
 
 ## Update
 
-- :warning: **2023/09/20**: **Fix bug in UMT pretraining.** Add autocast for teacher forward, which can halve the pretraining time.
+- :warning: **2023/09/25**: **Bug for MSVD retrieval.** Check it [here](./multi_modality/README#warning).
+- :rocket: **2023/09/20**: **Fix bug in UMT pretraining.** Add autocast for teacher forward, which can halve the pretraining time.
 - :fire: **2023/07/19**: **All the code and models are released.**
   - [single_modality](./single_modality/): Single-modality pretraining and finetuning.
     - Action Classification: [Kinetics](https://www.deepmind.com/open-source/kinetics), [Moments in Time](http://moments.csail.mit.edu/), [Something-Something](https://developer.qualcomm.com/software/ai-datasets/something-something).
-    - Action Detecetion: [AVA](http://research.google.com/ava/).
+    - Action Detection: [AVA](http://research.google.com/ava/).
     - **The models and scripts are in [MODEL_ZOO](./single_modality/MODEL_ZOO.md). Have a try!**
   - [multi_modality](./multi_modality/): Multi-modality pretraining and finetuning.
     - Video-Text Retrieval: [MSRVTT](https://www.microsoft.com/en-us/research/publication/msr-vtt-a-large-video-description-dataset-for-bridging-video-and-language/), [DiDeMo](https://github.com/LisaAnne/TemporalLanguageRelease), [ActivityNet](http://activity-net.org/), [LSMDC](https://sites.google.com/site/describingmovies/), [MSVD](https://www.cs.utexas.edu/users/ml/clamp/videoDescription/), [Something-Something](https://github.com/jayleicn/singularity).
