@@ -391,10 +391,10 @@ We load those models with K710 pretraining (Stage1) and further pretrain them on
     <tr align="center">
         <td><a href="./exp/finetuning/qa_anet/b16_5m.sh">script</a></td>
         <td><a href="./exp/finetuning/qa_anet/b16_17m.sh">script</a></td>
-        <td><a href="./exp/finetuning/qa_anet/b16_25m.sh">script</a><a href="https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/umt/multi_modality/qa_qnet_b16_25m.pth"> <b>[ckpt]</b></a></td>
+        <td><a href="./exp/finetuning/qa_anet/b16_25m.sh">script</a><a href="https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/umt/multi_modality/qa_ant_b16_25m.pth"> <b>[ckpt]</b></a></td>
         <td><a href="./exp/finetuning/qa_anet/l16_5m.sh">script</a></td>
         <td><a href="./exp/finetuning/qa_anet/l16_17m.sh">script</a></td>
-        <td><a href="./exp/finetuning/qa_anet/l16_25m.sh">script</a><a href="https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/umt/multi_modality/qa_qnet_l16_25m.pth"> <b>[ckpt]</b></a></td>
+        <td><a href="./exp/finetuning/qa_anet/l16_25m.sh">script</a><a href="https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/umt/multi_modality/qa_anet_l16_25m.pth"> <b>[ckpt]</b></a></td>
     </tr>
     <tr align="center">
         <th rowspan="2">MSRVTT-QA</th>
