@@ -6,7 +6,7 @@ By [Kunchang Li](https://scholar.google.com/citations?user=D4tLSbsAAAAJ), [Yali 
 
 ## Update
 
-- 🥇: **2023/10/01**: **Get Champion with unmasked teacher on [Perception Test Chanllednge](https://ptchallenge-workshop.github.io/), ICCV 2023.** Check our [solutions](https://github.com/OpenGVLab/perception_test_iccv2023).
+- 🥇: **2023/10/01**: **Get Champion with unmasked teacher on [Perception Test Challenge](https://ptchallenge-workshop.github.io/), ICCV 2023.** Check our [solutions](https://github.com/OpenGVLab/perception_test_iccv2023).
 - :warning: **2023/09/25**: **Bug for MSVD retrieval.** Check it [here](./multi_modality/README#warning).
 - :rocket: **2023/09/20**: **Fix bug in UMT pretraining.** Add autocast for teacher forward, which can halve the pretraining time.
 - :fire: **2023/07/19**: **All the code and models are released.**
