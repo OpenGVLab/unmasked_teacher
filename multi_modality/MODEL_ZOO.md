@@ -302,7 +302,7 @@ We load those models with K710 pretraining (Stage1) and further pretrain them on
         <th rowspan="3">MSVD</th>
         <td>T2V</td>
         <td align='left'>R@1: 47.4<br>R@5: 76.8<br>R@10: 84.0<br></td>
-        <td align='left'>R@1: -<br>R@5: -<br>R@10: -<br></td>
+        <td align='left'>R@1: 49.6<br>R@5: 78.5<br>R@10: 85.7<br></td>
         <td align='left'>R@1: 50.8<br>R@5: 79.7<br>R@10: 86.2<br></td>
         <td align='left'>R@1: 53.7<br>R@5: 80.5<br>R@10: 86.8<br></td>
         <td align='left'>R@1: 57.4<br>R@5: 83.0<br>R@10: 88.5<br></td>
@@ -311,7 +311,7 @@ We load those models with K710 pretraining (Stage1) and further pretrain them on
     <tr align="center">
         <td>V2T</td>
         <td align='left'>R@1: 69.1<br>R@5: 85.8<br>R@10: 92.1<br></td>
-        <td align='left'>R@1: -<br>R@5: -<br>R@10: -<br></td>
+        <td align='left'>R@1: 71.6<br>R@5: 88.8<br>R@10: 92.7<br></td>
         <td align='left'>R@1: 73.3<br>R@5: 89.6<br>R@10: 93.7<br></td>
         <td align='left'>R@1: 77.2<br>R@5: 91.6<br>R@10: 94.8<br></td>
         <td align='left'>R@1: 82.4<br>R@5: 93.6<br>R@10: 96.0<br></td>
@@ -321,10 +321,10 @@ We load those models with K710 pretraining (Stage1) and further pretrain them on
         <td>Material</td>
         <td><a href="./exp/finetuning/ret_msvd/b16_5m.sh">script</a></td>
         <td><a href="./exp/finetuning/ret_msvd/b16_17m.sh">script</a></td>
-        <td><a href="./exp/finetuning/ret_msvd/b16_25m.sh">script</a><a href=""> <b>ckpt wait</b></a></td>
+        <td><a href="./exp/finetuning/ret_msvd/b16_25m.sh">script</a><a href="https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/umt/multi_modality/ret_msvd_b16_25m.pth"> <b>[ckpt]</b></a></td>
         <td><a href="./exp/finetuning/ret_msvd/l16_5m.sh">script</a></td>
         <td><a href="./exp/finetuning/ret_msvd/l16_17m.sh">script</a></td>
-        <td><a href="./exp/finetuning/ret_msvd/l16_25m.sh">script</a><a href=""> <b>ckpt wait</b></a></td>
+        <td><a href="./exp/finetuning/ret_msvd/l16_25m.sh">script</a><a href="https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/umt/multi_modality/ret_msvd_l16_25m.pth"> <b>[ckpt]</b></a></td>
     </tr>
     <tr align="center">
         <th rowspan="2">SSV2-<br>label</th>
@@ -391,7 +391,7 @@ We load those models with K710 pretraining (Stage1) and further pretrain them on
     <tr align="center">
         <td><a href="./exp/finetuning/qa_anet/b16_5m.sh">script</a></td>
         <td><a href="./exp/finetuning/qa_anet/b16_17m.sh">script</a></td>
-        <td><a href="./exp/finetuning/qa_anet/b16_25m.sh">script</a><a href="https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/umt/multi_modality/qa_ant_b16_25m.pth"> <b>[ckpt]</b></a></td>
+        <td><a href="./exp/finetuning/qa_anet/b16_25m.sh">script</a><a href="https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/umt/multi_modality/qa_anet_b16_25m.pth"> <b>[ckpt]</b></a></td>
         <td><a href="./exp/finetuning/qa_anet/l16_5m.sh">script</a></td>
         <td><a href="./exp/finetuning/qa_anet/l16_17m.sh">script</a></td>
         <td><a href="./exp/finetuning/qa_anet/l16_25m.sh">script</a><a href="https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/umt/multi_modality/qa_anet_l16_25m.pth"> <b>[ckpt]</b></a></td>
