@@ -25,7 +25,7 @@ test_types = ["test"]
 num_workers = 6
 
 stop_key = "test/" # used to choose the best ckpt. If None, save the last.
-is_paragraph_retrieval = True
+is_paragraph_retrieval = False
 
 # ========================= input ==========================
 num_frames = 12
@@ -105,7 +105,7 @@ criterion = dict(
 
 optimizer = dict(
     opt="adamW",
-    lr=2e-5,
+    lr=1e-5,
     opt_betas=[0.9, 0.999],  # default
     weight_decay=0.02,
     max_grad_norm=-1,  # requires a positive float, use -1 to disable
@@ -113,7 +113,7 @@ optimizer = dict(
     different_lr=dict(enable=False, module_names=[], lr=1e-3),
 )
 
-scheduler = dict(sched="cosine", epochs=10, min_lr_multi=0.01, warmup_epochs=0)
+scheduler = dict(sched="cosine", epochs=5, min_lr_multi=0.01, warmup_epochs=0)
 
 evaluate = False
 deep_fusion = False
