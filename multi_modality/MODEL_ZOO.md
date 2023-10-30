@@ -145,21 +145,21 @@ We load those models with K710 pretraining (Stage1) and further pretrain them on
     <tr align="center">
         <th rowspan="3">MSVD</th>
         <td>T2V</td>
-        <td align='left'>R@1: 55.7<br>R@5: 83.7<br>R@10: 92.2<br></td>
-        <td align='left'>R@1: 58.8<br>R@5: 86.1<br>R@10: 91.5<br></td>
-        <td align='left'>R@1: 60.3<br>R@5: 86.7<br>R@10: 91.9<br></td>
-        <td align='left'>R@1: 68.1<br>R@5: 92.1<br>R@10: 95.2<br></td>
-        <td align='left'>R@1: 71.0<br>R@5: 93.3<br>R@10: 96.4<br></td>
-        <td align='left'>R@1: 72.2<br>R@5: 94.2<br>R@10: 96.9<br></td>
+        <td align='left'>R@1: 36.2<br>R@5: 65.7<br>R@10: 76.1<br></td>
+        <td align='left'>R@1: 41.4<br>R@5: 70.6<br>R@10: 80.1<br></td>
+        <td align='left'>R@1: 42.3<br>R@5: 71.7<br>R@10: 80.8<br></td>
+        <td align='left'>R@1: 44.4<br>R@5: 73.3<br>R@10: 82.4<br></td>
+        <td align='left'>R@1: 49.9<br>R@5: 77.7<br>R@10: 85.3<br></td>
+        <td align='left'>R@1: 49.0<br>R@5: 76.9<br>R@10: 84.7<br></td>
     </tr>
     <tr align="center">
         <td>V2T</td>
-        <td align='left'>R@1: 60.6<br>R@5: 85.7<br>R@10: 92.2<br></td>
-        <td align='left'>R@1: 61.9<br>R@5: 86.9<br>R@10: 91.3<br></td>
-        <td align='left'>R@1: 64.0<br>R@5: 86.3<br>R@10: 90.4<br></td>
-        <td align='left'>R@1: 68.1<br>R@5: 92.5<br>R@10: 96.3<br></td>
-        <td align='left'>R@1: 69.1<br>R@5: 91.5<br>R@10: 94.8<br></td>
-        <td align='left'>R@1: 72.4<br>R@5: 93.4<br>R@10: 95.8<br></td>
+        <td align='left'>R@1: 58.5<br>R@5: 78.7<br>R@10: 84.3<br></td>
+        <td align='left'>R@1: 62.5<br>R@5: 80.8<br>R@10: 87.0<br></td>
+        <td align='left'>R@1: 61.9<br>R@5: 82.5<br>R@10: 88.5<br></td>
+        <td align='left'>R@1: 66.1<br>R@5: 85.5<br>R@10: 89.4<br></td>
+        <td align='left'>R@1: 75.4<br>R@5: 89.6<br>R@10: 94.0<br></td>
+        <td align='left'>R@1: 74.5<br>R@5: 89.7<br>R@10: 92.8<br></td>
     </tr>
     <tr align="center">
         <td>Material</td>
@@ -301,30 +301,30 @@ We load those models with K710 pretraining (Stage1) and further pretrain them on
     <tr align="center">
         <th rowspan="3">MSVD</th>
         <td>T2V</td>
-        <td align='left'>R@1: 67.0<br>R@5: 92.7<br>R@10: 96.7<br></td>
-        <td align='left'>R@1: 70.8<br>R@5: 93.7<br>R@10: 96.6<br></td>
-        <td align='left'>R@1: 71.9<br>R@5: 94.5<br>R@10: 97.8<br></td>
-        <td align='left'>R@1: 76.9<br>R@5: 96.7<br>R@10: 98.7<br></td>
-        <td align='left'>R@1: 78.8<br>R@5: 97.3<br>R@10: 98.8<br></td>
-        <td align='left'>R@1: 80.3<br>R@5: 98.1<br>R@10: 99.0<br></td>
+        <td align='left'>R@1: -<br>R@5: -<br>R@10: -<br></td>
+        <td align='left'>R@1: 47.4<br>R@5: 76.8<br>R@10: 84.0<br></td>
+        <td align='left'>R@1: 50.8<br>R@5: 79.7<br>R@10: 86.2<br></td>
+        <td align='left'>R@1: 53.7<br>R@5: 80.5<br>R@10: 86.8<br></td>
+        <td align='left'>R@1: 57.4<br>R@5: 83.0<br>R@10: 88.5<br></td>
+        <td align='left'>R@1: 58.2<br>R@5: 83.9<br>R@10: 89.6<br></td>
     </tr>
     <tr align="center">
         <td>V2T</td>
-        <td align='left'>R@1: 67.0<br>R@5: 92.5<br>R@10: 96.3<br></td>
-        <td align='left'>R@1: 71.3<br>R@5: 93.9<br>R@10: 97.2<br></td>
-        <td align='left'>R@1: 74.0<br>R@5: 94.6<br>R@10: 97.3<br></td>
-        <td align='left'>R@1: 73.6<br>R@5: 96.3<br>R@10: 98.1<br></td>
-        <td align='left'>R@1: 78.1<br>R@5: 97.6<br>R@10: 98.7<br></td>
-        <td align='left'>R@1: 81.2<br>R@5: 96.7<br>R@10: 98.7<br></td>
+        <td align='left'>R@1: -<br>R@5: -<br>R@10: -<br></td>
+        <td align='left'>R@1: 69.1<br>R@5: 85.8<br>R@10: 92.1<br></td>
+        <td align='left'>R@1: 73.3<br>R@5: 89.6<br>R@10: 93.7<br></td>
+        <td align='left'>R@1: 77.2<br>R@5: 91.6<br>R@10: 94.8<br></td>
+        <td align='left'>R@1: 82.4<br>R@5: 93.6<br>R@10: 96.0<br></td>
+        <td align='left'>R@1: 82.4<br>R@5: 94.6<br>R@10: 96.7<br></td>
     </tr>
     <tr align="center">
         <td>Material</td>
         <td><a href="./exp/finetuning/ret_msvd/b16_5m.sh">script</a></td>
         <td><a href="./exp/finetuning/ret_msvd/b16_17m.sh">script</a></td>
-        <td><a href="./exp/finetuning/ret_msvd/b16_25m.sh">script</a><a href="https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/umt/multi_modality/ret_msvd_b16_25m.pth"> <b>[ckpt]</b></a></td>
+        <td><a href="./exp/finetuning/ret_msvd/b16_25m.sh">script</a><a href=""> <b>ckpt wait</b></a></td>
         <td><a href="./exp/finetuning/ret_msvd/l16_5m.sh">script</a></td>
         <td><a href="./exp/finetuning/ret_msvd/l16_17m.sh">script</a></td>
-        <td><a href="./exp/finetuning/ret_msvd/l16_25m.sh">script</a><a href="https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/umt/multi_modality/ret_msvd_l16_25m.pth"> <b>[ckpt]</b></a></td>
+        <td><a href="./exp/finetuning/ret_msvd/l16_25m.sh">script</a><a href=""> <b>ckpt wait</b></a></td>
     </tr>
     <tr align="center">
         <th rowspan="2">SSV2-<br>label</th>
