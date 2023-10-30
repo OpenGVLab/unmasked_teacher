@@ -301,8 +301,8 @@ We load those models with K710 pretraining (Stage1) and further pretrain them on
     <tr align="center">
         <th rowspan="3">MSVD</th>
         <td>T2V</td>
-        <td align='left'>R@1: -<br>R@5: -<br>R@10: -<br></td>
         <td align='left'>R@1: 47.4<br>R@5: 76.8<br>R@10: 84.0<br></td>
+        <td align='left'>R@1: -<br>R@5: -<br>R@10: -<br></td>
         <td align='left'>R@1: 50.8<br>R@5: 79.7<br>R@10: 86.2<br></td>
         <td align='left'>R@1: 53.7<br>R@5: 80.5<br>R@10: 86.8<br></td>
         <td align='left'>R@1: 57.4<br>R@5: 83.0<br>R@10: 88.5<br></td>
@@ -310,8 +310,8 @@ We load those models with K710 pretraining (Stage1) and further pretrain them on
     </tr>
     <tr align="center">
         <td>V2T</td>
-        <td align='left'>R@1: -<br>R@5: -<br>R@10: -<br></td>
         <td align='left'>R@1: 69.1<br>R@5: 85.8<br>R@10: 92.1<br></td>
+        <td align='left'>R@1: -<br>R@5: -<br>R@10: -<br></td>
         <td align='left'>R@1: 73.3<br>R@5: 89.6<br>R@10: 93.7<br></td>
         <td align='left'>R@1: 77.2<br>R@5: 91.6<br>R@10: 94.8<br></td>
         <td align='left'>R@1: 82.4<br>R@5: 93.6<br>R@10: 96.0<br></td>
