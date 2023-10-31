@@ -20,7 +20,7 @@ By [Kunchang Li](https://scholar.google.com/citations?user=D4tLSbsAAAAJ), [Yali 
     - **The models and scripts are in [MODEL_ZOO](./multi_modality/MODEL_ZOO.md). Have a try!**
   - :bowing_man: We are hiring researchers, engineers and interns in **General Vision Group, Shanghai AI Lab**.  If you are interested in working with us, please contact [Yi Wang](https://shepnerd.github.io/) (`wangyi@pjlab.org.cn`).
 
-- **2023/07/14**: Unmasked Teacher is accpeted by ICCV2023! 🎉🎉
+- **2023/07/14**: Unmasked Teacher is accepted by ICCV2023! 🎉🎉
 
 - **2023/03/17**: We gave a blog in Chinese [Zhihu](https://zhuanlan.zhihu.com/p/618221217).
 
