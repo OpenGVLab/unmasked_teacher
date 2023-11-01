@@ -20,13 +20,13 @@ test_types = ["test"]
 num_workers = 6
 
 stop_key =  "test/" # used to choose the best ckpt. If None, save the last.
-is_paragraph_retrieval = False
+is_paragraph_retrieval = True
 
 # ========================= input ==========================
 num_frames = 4
 num_frames_test = 4
 batch_size = 32
-max_txt_l = 32
+max_txt_l = 150
 
 inputs = dict(
     image_res=224,

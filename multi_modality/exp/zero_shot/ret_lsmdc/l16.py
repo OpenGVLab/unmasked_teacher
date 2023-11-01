@@ -5,19 +5,14 @@ from configs.model import *
 del available_corpus
 
 train_file = [
-    f"{anno_root_downstream}/didemo_ret_train.json",
-    f"your_didemo_path",
+    f"{anno_root_downstream}/lsmdc_ret_train.json",
+    "your_lsmdc_path",
     "video",
 ]
 test_file = dict(
-    val=[
-        f"{anno_root_downstream}/didemo_ret_val.json",
-        f"your_didemo_path",
-        "video",
-    ],
     test=[
-        f"{anno_root_downstream}/didemo_ret_test.json",
-        f"your_didemo_path",
+        f"{anno_root_downstream}/lsmdc_ret_test_1000.json",
+        "your_lsmdc_path",
         "video",
     ],
 )
@@ -31,7 +26,7 @@ is_paragraph_retrieval = False
 num_frames = 4
 num_frames_test = 4
 batch_size = 32
-max_txt_l = 32
+max_txt_l = 96 
 
 inputs = dict(
     image_res=224,

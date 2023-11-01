@@ -26,7 +26,7 @@ is_paragraph_retrieval = False
 num_frames = 4
 num_frames_test = 4
 batch_size = 32
-max_txt_l = 32
+max_txt_l = 64
 
 inputs = dict(
     image_res=224,
