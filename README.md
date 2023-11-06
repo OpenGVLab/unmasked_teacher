@@ -7,7 +7,7 @@ By [Kunchang Li](https://scholar.google.com/citations?user=D4tLSbsAAAAJ), [Yali 
 ## Update
 
 - :star_struck: **2023/11/06**: Glad to see that **UMTScore’s ranking of video-text alignment is most consistent with humans**. Check [FETV](https://github.com/llyx97/FETV).
-- 🥇: **2023/10/01**: **Get Champion with unmasked teacher on [Perception Test Challenge](https://ptchallenge-workshop.github.io/), ICCV 2023.** Check our [solutions](https://github.com/OpenGVLab/perception_test_iccv2023).
+- :1st_place_medal: **2023/10/01**: **Get Champion with unmasked teacher on [Perception Test Challenge](https://ptchallenge-workshop.github.io/), ICCV 2023.** Check our [solutions](https://github.com/OpenGVLab/perception_test_iccv2023).
 - :warning: **2023/09/25**: **Bug for MSVD retrieval.** Check https://github.com/OpenGVLab/unmasked_teacher/issues/12. Results have been updated.
 - :rocket: **2023/09/20**: **Fix bug in UMT pretraining.** Add autocast for teacher forward, which can halve the pretraining time.
 - :fire: **2023/07/19**: **All the code and models are released.**
