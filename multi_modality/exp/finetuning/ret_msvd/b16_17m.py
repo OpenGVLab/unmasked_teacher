@@ -26,6 +26,7 @@ num_workers = 6
 
 stop_key = "test/" # used to choose the best ckpt. If None, save the last.
 is_paragraph_retrieval = False
+multi_txt_gt = True
 
 # ========================= input ==========================
 num_frames = 12
