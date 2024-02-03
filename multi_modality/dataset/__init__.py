@@ -88,6 +88,8 @@ def create_dataset(dataset_type, config):
         is_paragraph_retrieval = config.get("is_paragraph_retrieval", False)
         video_only_dataset_kwargs_eval["is_paragraph_retrieval"] = is_paragraph_retrieval
         video_only_dataset_kwargs_train["is_paragraph_retrieval"] = is_paragraph_retrieval
+        multi_txt_gt = config.get("multi_txt_gt", False)
+        video_only_dataset_kwargs_train["multi_txt_gt"] = multi_txt_gt
 
     if dataset_type in ["pt_train", "ret_train"]:
         # convert to list of lists
