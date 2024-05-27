@@ -50,7 +50,7 @@ class VidTxtRetTrainDataset(ImgTxtRetTrainDataset):
             self, ann_file, transform, num_frames=4,
             video_reader_type="decord", sample_type="rand", num_tries=3,
             is_paragraph_retrieval=False, has_multi_vision_gt=False,
-            trimmed30=False
+            trimmed30=False, multi_txt_gt=False,
     ):
         super(VidTxtRetTrainDataset, self).__init__(ann_file, transform, has_multi_vision_gt)
         self.num_frames = num_frames
@@ -62,6 +62,18 @@ class VidTxtRetTrainDataset(ImgTxtRetTrainDataset):
         self.trimmed30 = trimmed30
         if trimmed30:
             logger.info("Trimming the video, only use the first 30s")
+
+        if multi_txt_gt:
+            logger.info("The dataset has multiple ground truth for a video")
+            tmp_anno_list = []
+            for ann in self.anno_list:
+                path = ann["image"]
+                for caption in ann['caption']:
+                    tmp_anno_list.append({
+                        'image': path,
+                        'caption': caption
+                    })
+            self.anno_list = tmp_anno_list
 
         if is_paragraph_retrieval:
             self.anno_list = preprocess_para_retrieval_data(self.anno_list)
